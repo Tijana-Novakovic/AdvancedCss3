@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Assignment 3</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			
+			margin: 0 auto;
+			padding: 8px;
+			font-family: Arial, sans-serif;
+		}
+		.thumb {
+			
+			background-color: #1B43AD;
+			border-radius: 10px 10px 0 0;
+		}
+		
+		.title {
+			background-color: beige;
+			text-align: center;
+			height: 20px;
+			color: #393636;
+			font-size: 12px;
+			line-height: 20px
+
+		}
+		#grid {
+			display: grid;
+			grid-template-columns: 100px 100px 100px 100px 100px ;
+			grid-row-gap: 50px;
+			justify-content: space-between;
+		}
+		
+		.thumb:hover {
+			-webkit-transform: scale(1.1);
+            transform: scale(1.1);
+			cursor: pointer;
+		}
+		
+		
+		
+		@media screen and (max-width: 768px) {
+			#grid {
+				grid-template-columns: 100px 100px 100px;
+			}
+			
+		}
+		
+		@media screen and (max-width:418px) {
+			#grid {
+				grid-template-columns: 100px;
+				justify-content: center;
+			}
+			h1 {
+				text-align: center;
+			}
+			
+		}
+		
+		
+		
+	</style>
+</head>
+
+<body>
+	
+	<h1>Gallery Heading</h1>
+	<div id="grid">
+	<div class="thumb" id="b">
+		<img src="placeholder-image100.png" alt="img">
+		<div class="title">
+			<p>Title images</p>
+		</div>
+	</div>
+	<div class="thumb" id="c">
+		<img src="placeholder-image100.png" alt="img">
+		<div class="title">
+			<p>Title images</p>
+		</div>
+	</div>
+	<div class="thumb" id="d">
+		<img src="placeholder-image100.png" alt="img">
+		<div class="title">
+			<p>Title images</p>
+		</div>
+	</div>
+	<div class="thumb" id="e">
+		<img src="placeholder-image100.png" alt="img">
+		<div class="title">
+			<p>Title images</p>
+		</div>
+	</div>
+	<div class="thumb" id="f">
+		<img src="placeholder-image100.png" alt="img">
+		<div class="title">
+			<p>Title images</p>
+		</div>
+	</div>
+	<div class="thumb" id="g">
+		<img src="placeholder-image100.png" alt="img">
+		<div class="title">
+			<p>Title images</p>
+		</div>
+	</div>
+	<div class="thumb" id="h">
+		<img src="placeholder-image100.png" alt="img">
+		<div class="title">
+			<p>Title images</p>
+		</div>
+	</div>
+	<div class="thumb" id="i">
+		<img src="placeholder-image100.png" alt="img">
+		<div class="title">
+			<p>Title images</p>
+		</div>
+	</div>
+	<div class="thumb" id="j">
+		<img src="placeholder-image100.png" alt="img">
+		<div class="title">
+			<p>Title images</p>
+		</div>
+	</div>
+	<div class="thumb" id="l">
+		<img src="placeholder-image100.png" alt="img">
+		<div class="title">
+			<p>Title images</p>
+		</div>
+	</div>
+		</div>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		
+	
+	
+</body>
+</html>
